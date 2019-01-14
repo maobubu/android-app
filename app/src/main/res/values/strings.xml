@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">温度监控系统</string>
+    <string name="zhong_duan3">终端三</string>
+    <string name="xuanzeshijian">选择时间间隔</string>
+    <string name="zhongduan_2">终端二</string>
+    <string name="zhongduan_6">终端六</string>
+    <string name="zhongduan_7">终端七</string>
+    <string name="zhongduan_8">终端八</string>
+    <string name="zhongduan_9">终端九</string>
+    <string name="zhongduan_10">终端十</string>
+    <string name="wendu1">温度一</string>
+    <string name="wenduzhi">温度值:</string>
+    <string name="riqi">传达日期:</string>
+    <string name="shijian">传达时间:</string>
+    <string name="wendu2">温度二</string>
+    <string name="wendu3">温度三</string>
+    <string name="wendu4">温度四</string>
+    <string name="zhongduan_1">终端一</string>
+    <string name="zhongduan_4">终端四</string>
+    <string name="zhongduan_5">终端五</string>
+    <string name="wendu5">温度五</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_zhongduan5"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mingrisoft.maobu.maobu.Zhongduan5">
+
+    <TextView
+        android:text="@string/zhongduan_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textColor="@drawable/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+    <include
+        android:id="@+id/include"
+        layout="@layout/moban"/>
+
+</LinearLayout>

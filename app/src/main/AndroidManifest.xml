@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mingrisoft.maobu.maobu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mao"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Jiemian" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Zhongduan1" />
+        <activity android:name=".Wendu" />
+        <activity android:name=".Zhongduan2" />
+        <activity android:name=".Zhongduan3" />
+        <activity android:name=".Zhongduan4" />
+        <activity android:name=".Zhongduan5" />
+        <activity android:name=".Zhongduan6" />
+        <activity android:name=".Zhongduan7" />
+        <activity android:name=".Zhongduan8" />
+        <activity android:name=".Zhongduan9" />
+        <activity android:name=".Zhongduan10" />
+        <activity android:name=".Suoyou" />
+        <activity android:name=".Huanying">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService1"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService2"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService3"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService4"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService5"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService6"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService7"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService8"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyService9"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyServicesuoyou"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

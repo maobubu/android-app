@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_suoyou"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mingrisoft.maobu.maobu.Suoyou">
+
+
+    <TextView
+        android:text="输入终端号查询页面"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView30"
+        android:textColor="@drawable/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+    <TextView
+        android:text="点击按钮查询所有终端号码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView35"
+        android:textSize="27dp"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+    <Button
+        android:text="查询所有终端"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/black"
+        android:id="@+id/button6"
+        />
+    <TextView
+        android:text="终端号码："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView36"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/id"/>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoView"
+        android:completionThreshold="1"
+        android:hint="请输入要查询的终端号码"
+        />
+
+    <TextView
+        android:text="选择时间间隔"
+        android:textColor="@drawable/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3" />
+
+    <Button
+        android:text="查询（使用刷新查询功能同时也可以点击按钮进行普通查询）"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+
+    <TextView
+        android:text="选择刷新时间"
+        android:textColor="@drawable/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView32"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner4" />
+
+    <Button
+        android:text="启用刷新（若要更改刷新时间和时间间隔请在更改后重新点击）"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5" />
+
+    <TextView
+        android:text="APP接收日期："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV23"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="APP接收时间："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV28"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/wendu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV4"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:text="@string/wenduzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/riqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/shijian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/wendu2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/tV12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:text="@string/wenduzhi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tV11"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/riqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV13"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/shijian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV14"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/wendu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV15"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:text="@string/wenduzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV16"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/riqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV17"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/shijian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV34"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/wendu4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV33"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:text="@string/wenduzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV39"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/riqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV38"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/shijian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV40"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/wendu5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tV41"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:text="@string/wenduzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV42"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/riqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV43"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="@string/shijian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV45"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <TextView
+        android:text="终端状态："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tV18"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+
+
+</LinearLayout>
+</ScrollView>
